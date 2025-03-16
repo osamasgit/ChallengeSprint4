@@ -7,22 +7,32 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-  <h1>DevelopFlix</h1>
-    <section class="genero-container">
-        <h2>Películas de Acción</h2>
-        <div id="genero-28" class="genero"></div>
-    </section>
+    <header class="header-top">
+        <h1>DevelopFlix</h1>
+        <nav>
+            <ul>
+                <li><a href="#accion">ACCIÓN</a></li>
+                <li><a href="#thriller">THRILLER</a></li>
+                <li><a href="#aventura">AVENTURA</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="genero-container" id="accion">
+            <h2>Películas de Acción</h2>
+            <div id="genero-28" class="genero"></div>
+        </section>
 
-    <section class="genero-container">
-        <h2>Películas de Thriller</h2>
-        <div id="genero-53" class="genero"></div>
-    </section>
+        <section class="genero-container" id="thriller">
+            <h2>Películas de Thriller</h2>
+            <div id="genero-53" class="genero"></div>
+        </section>
 
-    <section class="genero-container">
-        <h2>Películas de Aventura</h2>
-        <div id="genero-12" class="genero"></div>
-    </section>
-
+        <section class="genero-container" id="aventura">
+            <h2>Películas de Aventura</h2>
+            <div id="genero-12" class="genero"></div>
+        </section>
+    </main>
     <script type="module" src="./js/script.js"></script>
 </body>
 </html>
